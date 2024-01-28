@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: '/quiz',
+        path: '/QuizApp',
         element: <Quiz/>
       }
     ]
