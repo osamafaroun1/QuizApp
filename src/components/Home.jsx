@@ -1,4 +1,5 @@
 // Home.js
+import omf from '../../public/images/banner.png'
 import { useState } from "react";
 import {  useNavigate } from "react-router-dom";
 import Loading from "./Loading";
@@ -21,7 +22,7 @@ const Home = () => {
       {loading && <Loading />}
 
       <div className="md:w-1/2 w-full">
-        <img src="/images/banner.png" alt="banner" className="w-full mx-auto" />
+        <img src={omf} alt="banner" className="w-full mx-auto" />
       </div>
 
       <div className="md:w-1/2 w-full">
