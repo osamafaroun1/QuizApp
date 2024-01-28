@@ -1,10 +1,10 @@
-
+import logo from '../../public/images/logo.png'
 const Navbar = () => {
   return (
     <header className="h-16 flex items-center shadow-sm">
     <nav className="flex justify-between items-center w-9/12 mx-auto">
       <a href="/" className="text-zinc-800 font-bold uppercase">
-        <img src="/images/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </a>
       <div className="space-x-5 flex items-center">
         <ul className="space-x-5 sm:flex hidden">

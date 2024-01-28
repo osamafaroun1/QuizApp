@@ -28,7 +28,7 @@ const Quiz = () => {
   const [status, setStatus] = useState("");
 
   useEffect(() => {
-    fetch("/quiz.json")
+    fetch("/QuizApp/quiz.json")
       .then((response) => response.json())
       .then((data) => setQuestions(data))
       .catch((error) => console.error("Error fetching quiz data:", error));

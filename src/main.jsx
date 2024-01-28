@@ -10,15 +10,15 @@ import Quiz from './components/Quiz.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/QuizApp",
     element: <App/>,
     children: [
       {
-        path: '/',
+        path: '/QuizApp',
         element: <Home/>
       },
       {
-        path: '/QuizApp',
+        path: '/QuizApp/quiz',
         element: <Quiz/>
       }
     ]

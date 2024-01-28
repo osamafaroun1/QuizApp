@@ -11,7 +11,7 @@ const Home = () => {
     setLoading(true);
 
     setTimeout(() => {
-      navigate("/QuizApp");
+      navigate("/QuizApp/quiz");
       setLoading(false);
     }, 3000);
   };
